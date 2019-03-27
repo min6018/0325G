@@ -46,7 +46,7 @@ public class DrawingPanel extends JPanel {
 		this.drawShape();
 	}
 	
-	private void continueDrawing() { // n을 정해주는
+	private void continueDrawing(int x, int y) { // n을 정해주는
 		this.currentTool.addPoint(x, y); //중간 점 찍는 
 	}
 	
@@ -102,3 +102,4 @@ public class DrawingPanel extends JPanel {
 		}
 	}
 }
+//
